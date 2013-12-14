@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152812DA185BC3F8000BDE72 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 152812D9185BC3F8000BDE72 /* PhotoCell.m */; };
 		156E2557185B8EEB0000419E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E2556185B8EEB0000419E /* Foundation.framework */; };
 		156E2559185B8EEB0000419E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E2558185B8EEB0000419E /* CoreGraphics.framework */; };
 		156E255B185B8EEB0000419E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E255A185B8EEB0000419E /* UIKit.framework */; };
 		156E2561185B8EEB0000419E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156E255F185B8EEB0000419E /* InfoPlist.strings */; };
 		156E2563185B8EEB0000419E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E2562185B8EEB0000419E /* main.m */; };
 		156E2567185B8EEB0000419E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E2566185B8EEB0000419E /* AppDelegate.m */; };
-		156E256A185B8EEB0000419E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156E2568185B8EEB0000419E /* Main_iPhone.storyboard */; };
-		156E256D185B8EEB0000419E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156E256B185B8EEB0000419E /* Main_iPad.storyboard */; };
-		156E2570185B8EEB0000419E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E256F185B8EEB0000419E /* ViewController.m */; };
+		156E2570185B8EEB0000419E /* PhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E256F185B8EEB0000419E /* PhotoListViewController.m */; };
 		156E2572185B8EEB0000419E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156E2571185B8EEB0000419E /* Images.xcassets */; };
 		156E2579185B8EEB0000419E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E2578185B8EEB0000419E /* XCTest.framework */; };
 		156E257A185B8EEB0000419E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E2556185B8EEB0000419E /* Foundation.framework */; };
 		156E257B185B8EEB0000419E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156E255A185B8EEB0000419E /* UIKit.framework */; };
 		156E2583185B8EEB0000419E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156E2581185B8EEB0000419E /* InfoPlist.strings */; };
 		156E2585185B8EEB0000419E /* photouploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E2584185B8EEB0000419E /* photouploadTests.m */; };
+		156E2590185B94510000419E /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156E258F185B94510000419E /* NavigationViewController.m */; };
+		22F2440569C442FB99404823 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC9BA28D7CB411D85AAE6E5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152812D8185BC3F8000BDE72 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		152812D9185BC3F8000BDE72 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 		156E2553185B8EEB0000419E /* photoupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156E2556185B8EEB0000419E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		156E2558185B8EEB0000419E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,16 +48,18 @@
 		156E2564185B8EEB0000419E /* photoupload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "photoupload-Prefix.pch"; sourceTree = "<group>"; };
 		156E2565185B8EEB0000419E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		156E2566185B8EEB0000419E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		156E2569185B8EEB0000419E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		156E256C185B8EEB0000419E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		156E256E185B8EEB0000419E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		156E256F185B8EEB0000419E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		156E256E185B8EEB0000419E /* PhotoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoListViewController.h; sourceTree = "<group>"; };
+		156E256F185B8EEB0000419E /* PhotoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoListViewController.m; sourceTree = "<group>"; };
 		156E2571185B8EEB0000419E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		156E2577185B8EEB0000419E /* photouploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photouploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156E2578185B8EEB0000419E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		156E2580185B8EEB0000419E /* photouploadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "photouploadTests-Info.plist"; sourceTree = "<group>"; };
 		156E2582185B8EEB0000419E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		156E2584185B8EEB0000419E /* photouploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = photouploadTests.m; sourceTree = "<group>"; };
+		156E258E185B94510000419E /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		156E258F185B94510000419E /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		7EC9BA28D7CB411D85AAE6E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DCDC05DB0149C893666B1B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 				156E2559185B8EEB0000419E /* CoreGraphics.framework in Frameworks */,
 				156E255B185B8EEB0000419E /* UIKit.framework in Frameworks */,
 				156E2557185B8EEB0000419E /* Foundation.framework in Frameworks */,
+				22F2440569C442FB99404823 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				156E257E185B8EEB0000419E /* photouploadTests */,
 				156E2555185B8EEB0000419E /* Frameworks */,
 				156E2554185B8EEB0000419E /* Products */,
+				A6DCDC05DB0149C893666B1B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +114,7 @@
 				156E2558185B8EEB0000419E /* CoreGraphics.framework */,
 				156E255A185B8EEB0000419E /* UIKit.framework */,
 				156E2578185B8EEB0000419E /* XCTest.framework */,
+				7EC9BA28D7CB411D85AAE6E5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +124,14 @@
 			children = (
 				156E2565185B8EEB0000419E /* AppDelegate.h */,
 				156E2566185B8EEB0000419E /* AppDelegate.m */,
-				156E2568185B8EEB0000419E /* Main_iPhone.storyboard */,
-				156E256B185B8EEB0000419E /* Main_iPad.storyboard */,
-				156E256E185B8EEB0000419E /* ViewController.h */,
-				156E256F185B8EEB0000419E /* ViewController.m */,
+				156E256E185B8EEB0000419E /* PhotoListViewController.h */,
+				156E256F185B8EEB0000419E /* PhotoListViewController.m */,
 				156E2571185B8EEB0000419E /* Images.xcassets */,
 				156E255D185B8EEB0000419E /* Supporting Files */,
+				156E258E185B94510000419E /* NavigationViewController.h */,
+				156E258F185B94510000419E /* NavigationViewController.m */,
+				152812D8185BC3F8000BDE72 /* PhotoCell.h */,
+				152812D9185BC3F8000BDE72 /* PhotoCell.m */,
 			);
 			path = photoupload;
 			sourceTree = "<group>";
@@ -162,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 156E2588185B8EEB0000419E /* Build configuration list for PBXNativeTarget "photoupload" */;
 			buildPhases = (
+				68EE4EC2D5434E2583860248 /* Check Pods Manifest.lock */,
 				156E254F185B8EEB0000419E /* Sources */,
 				156E2550185B8EEB0000419E /* Frameworks */,
 				156E2551185B8EEB0000419E /* Resources */,
+				15259CA90A60469A865DE3F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +214,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jeff Dickey";
 				TargetAttributes = {
+					156E2552185B8EEB0000419E = {
+						DevelopmentTeam = 4993Y37DX6;
+					};
 					156E2576185B8EEB0000419E = {
 						TestTargetID = 156E2552185B8EEB0000419E;
 					};
@@ -231,9 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156E256D185B8EEB0000419E /* Main_iPad.storyboard in Resources */,
 				156E2572185B8EEB0000419E /* Images.xcassets in Resources */,
-				156E256A185B8EEB0000419E /* Main_iPhone.storyboard in Resources */,
 				156E2561185B8EEB0000419E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,12 +261,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15259CA90A60469A865DE3F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68EE4EC2D5434E2583860248 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		156E254F185B8EEB0000419E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156E2570185B8EEB0000419E /* ViewController.m in Sources */,
+				156E2590185B94510000419E /* NavigationViewController.m in Sources */,
+				152812DA185BC3F8000BDE72 /* PhotoCell.m in Sources */,
+				156E2570185B8EEB0000419E /* PhotoListViewController.m in Sources */,
 				156E2567185B8EEB0000419E /* AppDelegate.m in Sources */,
 				156E2563185B8EEB0000419E /* main.m in Sources */,
 			);
@@ -284,22 +332,6 @@
 				156E2560185B8EEB0000419E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		156E2568185B8EEB0000419E /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				156E2569185B8EEB0000419E /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		156E256B185B8EEB0000419E /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				156E256C185B8EEB0000419E /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		156E2581185B8EEB0000419E /* InfoPlist.strings */ = {
@@ -389,26 +421,34 @@
 		};
 		156E2589185B8EEB0000419E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DCDC05DB0149C893666B1B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "photoupload/photoupload-Prefix.pch";
 				INFOPLIST_FILE = "photoupload/photoupload-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		156E258A185B8EEB0000419E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DCDC05DB0149C893666B1B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "photoupload/photoupload-Prefix.pch";
 				INFOPLIST_FILE = "photoupload/photoupload-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "68BBFF02-ED34-4F75-A7C4-00FC127859DF";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +514,7 @@
 				156E258A185B8EEB0000419E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		156E258B185B8EEB0000419E /* Build configuration list for PBXNativeTarget "photouploadTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +523,7 @@
 				156E258D185B8EEB0000419E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

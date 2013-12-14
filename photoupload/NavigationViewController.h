@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationViewController.h
 //  photoupload
 //
 //  Created by Jeff Dickey on 12/13/13.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoListViewController.h"
 
-@interface ViewController : UIViewController
+@interface NavigationViewController : UINavigationController
 
 @end
